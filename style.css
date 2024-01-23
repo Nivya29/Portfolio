@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../karls.avif);
+    background-size: cover;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+span{
+    color: rgb(205, 76, 143);
+}
+
+
+.logo{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding:10px 30px;
+    list-style-type:none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: deeppink;
+    transition: .4s;
+}
+.btn{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding:7px 15px;
+    border-radius: 25px;
+    transition: transform .4s;
+    font-size: 13px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:8%;
+    transform:translateY(-50%);
+}
+h1{
+    font-size: 70px;
+    margin:20px 0px 20px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+h4{
+    color:#585c63;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.newsletter form{
+    width:380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding:14px 130px 14px 15px;
+    border:1px solid black;
+    outline: none;
+    border-radius: 10px;
+}
+.newsletter form input:last-child{
+    position:absolute;
+    display: inline-block;
+    outline:none;
+    border:none;
+    padding:10px 30px;
+    border-radius: 10px;
+    background-color:black;
+    color:white;
+    margin-left:10px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 15px #a12573;
+}
+.connect{
+    position: absolute;
+    top:90%;
+    left:8%;
+    display: flex;
+    flex-wrap: no wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.connect p{
+    font-size: 17px;
+    margin-right:60px;
+}
+.connect .social a{
+    display: inline-block;
+    color:black;
+    margin-right: 15px;
+    transition: transform .3s;
+}
+.connect .social a:hover{
+    transform: scale(1.6);
+}
